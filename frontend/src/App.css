@@ -1,0 +1,86 @@
+/* Global Styles */
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #fff;
+}
+
+.card {
+  max-width: 400px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.form-label {
+  font-weight: bold;
+}
+
+.form-control {
+  font-size: 1rem;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.alert {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* Button Styling */
+.btn {
+  font-size: 1.2rem;
+  padding: 12px;
+  border-radius: 5px;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #004085;
+}
+
+.btn-success {
+  background-color: #28a745;
+  border-color: #28a745;
+}
+
+.btn-success:hover {
+  background-color: #218838;
+  border-color: #1e7e34;
+}
+
+/* Background Styling */
+.signup-container, .login-container {
+  background-color: #f8f9fa;
+}
+
+.signup-container {
+  background-color: #17a2b8;
+}
+
+.login-container {
+  background-color: #343a40;
+}
+
+/* Centering and Full Height */
+.vh-100 {
+  min-height: 100vh;
+}
+
+.shadow-lg {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .card {
+    width: 90%;
+  }
+}

@@ -1,0 +1,102 @@
+/* Global Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f3f4f6; /* Light background color */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h2 {
+  color: #333;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Container for the forms (signup and login) */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(135deg, #67b26f, #4ca2cd); /* Gradient background */
+}
+
+.form-container {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 450px;
+}
+
+.input-group {
+  margin-bottom: 1.5rem;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  color: #555;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 0.8rem;
+  font-size: 1rem;
+  border-radius: 4px;
+  border: 1px solid #4ca2cd; /* Blue border to match the gradient background */
+  transition: border-color 0.3s ease;
+}
+
+.input-group input:focus {
+  border-color: #67b26f; /* Green color when focused */
+  outline: none;
+}
+
+.submit-button {
+  width: 100%;
+  padding: 1rem;
+  background-color: #4ca2cd; /* Blue color to match the gradient */
+  color: white;
+  font-size: 1.2rem;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+  background-color: #67b26f; /* Green on hover */
+}
+
+.error-message {
+  color: red;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.link {
+  text-align: center;
+  display: block;
+  color: #4ca2cd;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.link:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .form-container {
+    padding: 1.5rem;
+    width: 90%;
+    max-width: 400px;
+  }
+}
